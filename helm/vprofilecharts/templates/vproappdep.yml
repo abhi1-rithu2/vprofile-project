@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: vproapp
-        image: {{ .Values.appimage }}
+        image: rithu1320/app01:latest
         ports:
         - name: vproapp-port
           containerPort: 8080
